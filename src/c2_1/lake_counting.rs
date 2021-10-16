@@ -60,7 +60,7 @@ mod tests {
     }
 
     #[bench]
-    fn bench_partial_sum(b: &mut Bencher) {
+    fn bench_lake_counting(b: &mut Bencher) {
         let map = vec![
             vec![true, false, false, false, false, false, false, false, false, true, true, false],
             vec![false, true, true, true, false, false, false, false, false, true, true, true],
